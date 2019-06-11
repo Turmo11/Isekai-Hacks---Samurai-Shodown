@@ -96,3 +96,4 @@ v.Alpha:  - Haohmaru disabled
 	  - Implemented Gen-an new animations (kick, lightattack, medium attack)
 	  
 Link to the game's wiki: https://github.com/marc535/Project_1/wiki
+Link to our latest release: ![](https://github.com/Turmo11/Isekai-Hacks---Samurai-Shodown/releases/tag/v.Alpha)
