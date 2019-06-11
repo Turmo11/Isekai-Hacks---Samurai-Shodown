@@ -1,109 +1,94 @@
-# The Hacker theme
+# Project 1
 
-[![Build Status](https://travis-ci.org/pages-themes/hacker.svg?branch=master)](https://travis-ci.org/pages-themes/hacker) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
+## Samurai Shodown
 
-*Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
+![Team logo](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.jpeg)
 
-![Thumbnail of Hacker](thumbnail.png)
+### Presentation:
 
-## Usage
+Project 1 - Samurai Shodown
 
-To use the Hacker theme:
+Samurai Shodown is a competitive fighting game series developed by SNK for the NEO GEO platform and got released the seventh of July, 1993.
 
-1. Add the following to your site's `_config.yml`:
+The stories take place in the 18th century in Japan, during the seclusion period. Shiro Tokisada Amakusa was slain in 1638 by the forces of the Tokugawa Shogunate and he is revived as a satanic demon. Driven by his hate for the force that killed him, he uses his dark powers to bring chaos to the world.
 
-    ```yml
-    theme: jekyll-theme-hacker
-    ```
+## **Team members**
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+![Team photo](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/team-photo.jpeg)
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+* Guillem Turmo (https://github.com/turmo11)- Management
+* Santiago Moliner (https://github.com/sanmopre)- Programmer
+* Marc Kenneth Dipasupi (https://github.com/marc535)- Art Design
+* Òscar Tarrés (https://github.com/oscarta3)- Q&A
 
-## Customizing
+Instructions:
+Download the file of whichever version you wish to play, inside of every one of them you will find an executable to play the version and a modified copy of this README file. 
+We recommend you read only the last part, which will show you which features are included in that version and the controls to play the game
 
-### Configuration variables
+Controls:
+If you wish to switch screens you can press SPACE
+* Player1 - Haohmaru:
+To move Haohmaru you have to either press D(forward walk), A(backward walk),W(jump) or S(crouch)
+To attack with Haohmaru you can either press Q(kick), E(slash), or R(tornado)
+You can also combine walking with jumping to realize forward/backward jumps (A/D + W)
 
-Hacker will respect the following variables, if set in your site's `_config.yml`:
+* Player2 - Haohmaru:
+To move Haohmaru you have to, using the arrows, either press RIGHT(forward walk), LEFT(backward walk),UP(jump) or DOWN(crouch)
+To attack with Haohmaru you can either press 1(kick), 2(slash), or 3(tornado)
+You can also combine walking with jumping to realize forward/backward jumps (LEFT/RIGHT + UP)
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+* Debug tools
+F1: show/hide colliders
+F2: skip to battle
+F5: godMode(eliminate p1 colliders)
+F10: Player1 win
+F11: Player2 win
+1:Direct player1 win
+2:Direct player2 win
 
-Additionally, you may choose to set the following optional variables:
+List of Versions:
 
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+v.0.1: - Scrollable empty background
 
-### Stylesheet
+v.0.2:  - Included NeoGeo screen, Welcome screen, Haohmaru's stage(animated) and Celebration screen
+	- FadeToBlack when screen switching added
+	- Music added for each different screen
+ 	- Haohmaru added with idle, forward walk, backward walk and jump animation
+	- Direct access to Haohmaru's scene by pressing Q (shortcut from NeoGeo's screen)
 
-If you'd like to add your own custom styles:
+v.0.3:  - Two movable players added without collisions
+	- Players flip when they pass each other, therefore, their animations flip as well
+	- Animated kick and special attack mechanics
+	- Added tornado particle
+	- Added sound fx for kick and special attack (+tornado)
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+v.0.4:  - Camera limits implemented
+	- Colliders for player and player2
+	- Colliders for tornado(+ animation completed)
+	- Colliders for walls/camera limits
+	- F1 debug tool added (show collides)
+	- F5 debug tool added godMode(eliminates only player's colliders)
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+v.0.5:  - Implemented the following animations:
+		- Jump Forward/Backward
+		- Crouch up/down
+	- HP bars added(fully functional) that decrease when player gets hit
+	- State/Input manager
+	- Win/Lose situations included
+	- Debug tools added directWin/Lose (player1/player2 victory) by pressing either 1 or 2, in all the screens
+	- Skip to battle debug tool changed from Q to F2, and added to all the screens
+	- Slash mechanic added, as well as its sfx
+	- Getting hit sfx and animation added
+	- Applied all changes to player2
+	- Death animation
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/hacker/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Hacker theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Hacker? We'd love your help. Hacker is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/hacker`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+v.0.6:	- Implemented the following stage/screen animations:
+		- Gen-an stage
+		- NeoGeo screen
+		- Welcome screen
+	- Implemented gen-an + player2 gen-an with different color sprites
+	- Implemented walk (forward and backward), jump (neutral, forward and backward) animations to gen-an
+	- Introduced timer
+	- Introduced KO animation(UI)
+	- Added F3 debug tool (shortcut to gen-an stage)
+Link to the game's wiki: https://github.com/marc535/Project_1/wiki
