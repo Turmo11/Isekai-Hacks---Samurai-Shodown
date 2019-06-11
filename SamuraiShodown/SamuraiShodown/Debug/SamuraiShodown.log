@@ -1,0 +1,3 @@
+﻿  ModuleSceneGenAn.cpp
+C:\Users\pautu\Documents\GitHub\Isekai-Hacks---Samurai-Shodown\SamuraiShodown\SamuraiShodown\ModuleSceneGenAn.cpp(152,81): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+  SamuraiShodown.vcxproj -> C:\Users\pautu\Documents\GitHub\Isekai-Hacks---Samurai-Shodown\SamuraiShodown\Debug\SamuraiShodown.exe
