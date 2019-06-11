@@ -3,7 +3,7 @@
 ## Samurai Shodown
 <img src="https://github.com/Turmo11/Isekai-Hacks---Samurai-Shodown/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png" >
 
-<img src="https://turmo11.github.io/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png" >
+<img src="https://turmo11.github.io/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png" >
 
 
 
