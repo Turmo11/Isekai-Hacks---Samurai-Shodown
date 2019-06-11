@@ -2,7 +2,7 @@
 
 ## Samurai Shodown
 
-![](https://github.com/Turmo11/Isekai-Hacks---Samurai-Shodown/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png)
+![](Temp%20project/vsl_2017/vsl_2017/Game/Assets/Wiki_gallery/isekaihack.png)
 
 ### Presentation:
 
