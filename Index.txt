@@ -31,7 +31,7 @@ layout: default
    
     <h2> Our Team </h2>
     
-    <img src="https://marcarizaalborni.github.io/Hit-The-Meat-Studio/TeamPhoto.jpg" alt="Team Photo">
+    <img src="https://github.com/Turmo11/Isekai-Hacks---Samurai-Shodown/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/team-photo.jpeg" alt="Team Photo">
         
     
     <h2>Want to try out the game?</h2>
