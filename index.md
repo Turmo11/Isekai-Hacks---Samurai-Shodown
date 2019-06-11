@@ -1,123 +1,94 @@
----
-layout: default
----
+# Project 1
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+## Samurai Shodown
 
-[Link to another page](./another-page.html).
+![Team logo](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.jpeg)
 
-There should be whitespace between paragraphs.
+### Presentation:
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Project 1 - Samurai Shodown
 
-# Header 1
+Samurai Shodown is a competitive fighting game series developed by SNK for the NEO GEO platform and got released the seventh of July, 1993.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The stories take place in the 18th century in Japan, during the seclusion period. Shiro Tokisada Amakusa was slain in 1638 by the forces of the Tokugawa Shogunate and he is revived as a satanic demon. Driven by his hate for the force that killed him, he uses his dark powers to bring chaos to the world.
 
-## Header 2
+## **Team members**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+![Team photo](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/team-photo.jpeg)
 
-### Header 3
+* Guillem Turmo (https://github.com/turmo11)- Management
+* Santiago Moliner (https://github.com/sanmopre)- Programmer
+* Marc Kenneth Dipasupi (https://github.com/marc535)- Art Design
+* Òscar Tarrés (https://github.com/oscarta3)- Q&A
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Instructions:
+Download the file of whichever version you wish to play, inside of every one of them you will find an executable to play the version and a modified copy of this README file. 
+We recommend you read only the last part, which will show you which features are included in that version and the controls to play the game
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+Controls:
+If you wish to switch screens you can press SPACE
+* Player1 - Haohmaru:
+To move Haohmaru you have to either press D(forward walk), A(backward walk),W(jump) or S(crouch)
+To attack with Haohmaru you can either press Q(kick), E(slash), or R(tornado)
+You can also combine walking with jumping to realize forward/backward jumps (A/D + W)
 
-#### Header 4
+* Player2 - Haohmaru:
+To move Haohmaru you have to, using the arrows, either press RIGHT(forward walk), LEFT(backward walk),UP(jump) or DOWN(crouch)
+To attack with Haohmaru you can either press 1(kick), 2(slash), or 3(tornado)
+You can also combine walking with jumping to realize forward/backward jumps (LEFT/RIGHT + UP)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+* Debug tools
+F1: show/hide colliders
+F2: skip to battle
+F5: godMode(eliminate p1 colliders)
+F10: Player1 win
+F11: Player2 win
+1:Direct player1 win
+2:Direct player2 win
 
-##### Header 5
+List of Versions:
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+v.0.1: - Scrollable empty background
 
-###### Header 6
+v.0.2:  - Included NeoGeo screen, Welcome screen, Haohmaru's stage(animated) and Celebration screen
+	- FadeToBlack when screen switching added
+	- Music added for each different screen
+ 	- Haohmaru added with idle, forward walk, backward walk and jump animation
+	- Direct access to Haohmaru's scene by pressing Q (shortcut from NeoGeo's screen)
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+v.0.3:  - Two movable players added without collisions
+	- Players flip when they pass each other, therefore, their animations flip as well
+	- Animated kick and special attack mechanics
+	- Added tornado particle
+	- Added sound fx for kick and special attack (+tornado)
 
-### There's a horizontal rule below this.
+v.0.4:  - Camera limits implemented
+	- Colliders for player and player2
+	- Colliders for tornado(+ animation completed)
+	- Colliders for walls/camera limits
+	- F1 debug tool added (show collides)
+	- F5 debug tool added godMode(eliminates only player's colliders)
 
-* * *
+v.0.5:  - Implemented the following animations:
+		- Jump Forward/Backward
+		- Crouch up/down
+	- HP bars added(fully functional) that decrease when player gets hit
+	- State/Input manager
+	- Win/Lose situations included
+	- Debug tools added directWin/Lose (player1/player2 victory) by pressing either 1 or 2, in all the screens
+	- Skip to battle debug tool changed from Q to F2, and added to all the screens
+	- Slash mechanic added, as well as its sfx
+	- Getting hit sfx and animation added
+	- Applied all changes to player2
+	- Death animation
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+v.0.6:	- Implemented the following stage/screen animations:
+		- Gen-an stage
+		- NeoGeo screen
+		- Welcome screen
+	- Implemented gen-an + player2 gen-an with different color sprites
+	- Implemented walk (forward and backward), jump (neutral, forward and backward) animations to gen-an
+	- Introduced timer
+	- Introduced KO animation(UI)
+	- Added F3 debug tool (shortcut to gen-an stage)
+Link to the game's wiki: https://github.com/marc535/Project_1/wiki
