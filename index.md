@@ -6,6 +6,8 @@
 <img src="https://turmo11.github.io/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png" >
 ![test] (https://turmo11.github.io/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png)
 
+![](SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png)
+
 
 
 ### Presentation:
