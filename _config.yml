@@ -1,8 +1,4 @@
-Aixo ha d'estar en .yml dinsd e la carpeta del repository
-
-
-
 theme: jekyll-theme-cayman
 title: Samurai Shodown
-description: PROJECT 1  Development of a tribute to Samurai Shodown
+description: Tribute of Samurai Shodown
 show_downloads: ["false"]
