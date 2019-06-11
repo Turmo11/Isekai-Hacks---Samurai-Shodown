@@ -3,6 +3,7 @@
 ## Samurai Shodown
 
 ![](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.jpeg)
+![](https://turmo11.github.io/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.jpeg)
 
 ### Presentation:
 
