@@ -2,8 +2,7 @@
 
 ## Samurai Shodown
 
-![](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.jpeg)
-![](https://turmo11.github.io/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.jpeg)
+![sa](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/isekaihack.png)
 
 ### Presentation:
 
@@ -15,7 +14,7 @@ The stories take place in the 18th century in Japan, during the seclusion period
 
 ## **Team members**
 
-![](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/team-photo.jpeg)
+![sd](https://github.com/marc535/Project_1/blob/master/SamuraiShodown/SamuraiShodown/Game/Assets/Wiki_gallery/team-photo.png)
 
 * Guillem Turmo (https://github.com/turmo11)- Management
 * Santiago Moliner (https://github.com/sanmopre)- Programmer
